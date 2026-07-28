@@ -4,37 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Her Rise — 赋能非洲女童摆脱经期困境</title>
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <link rel="icon" type="image/jpeg" href="assets/her-rise-logo.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css?v=46">
 </head>
 <body>
     <nav class="navbar">
         <div class="nav-container">
-            <a href="#" class="nav-logo">
-                <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-                    <circle cx="14" cy="14" r="13" stroke="currentColor" stroke-width="2"/>
-                    <path d="M9 16c0-3 2.5-5.5 5-5.5s5 2.5 5 5.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-                    <path d="M9 16c0 2 2.5 3.5 5 3.5s5-1.5 5-3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-                    <circle cx="14" cy="16" r="1" fill="currentColor"/>
-                </svg>
+            <a href="#home" class="nav-logo" data-view="home">
+                <img src="assets/her-rise-logo.jpg" alt="Her Rise logo" width="32" height="32">
                 <span>Her Rise</span>
             </a>
             <button class="nav-toggle" aria-label="菜单">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16"/><path d="M4 12h16"/><path d="M4 18h16"/></svg>
             </button>
             <ul class="nav-links">
-                <li><a href="#about">关于项目</a></li>
-                <li><a href="#sdg">SDGs</a></li>
-                <li><a href="#plan">执行方案</a></li>
-                <li><a href="#team">团队</a></li>
-                <li><a href="#contact">联系我们</a></li>
+                <li><a href="#about" data-view="about">为什么需要</a></li>
+                <li><a href="#plan" data-view="plan">我们准备怎么做</a></li>
+                <li><a href="#budget" data-view="budget">资金怎么用</a></li>
+                <li><a href="#sdg" data-view="sdg">这件事如何产生影响</a></li>
+                <li><a href="#leaderboard" data-view="leaderboard">筹款支持榜</a></li>
+                <li><a href="#team" data-view="team">认识团队 · 联系我们</a></li>
             </ul>
         </div>
     </nav>
 
+    <main id="home-view" class="view view-home is-active">
     <section class="hero">
         <div class="hero-bg"></div>
         <div class="hero-content">
@@ -43,19 +43,94 @@
             <p class="hero-subtitle">赋能非洲女童摆脱经期困境、重返校园逐梦</p>
             <p class="hero-motto">Rise back to class, rise free from shame, rise towards dream</p>
             <div class="hero-actions">
-                <a href="#about" class="btn btn-primary">了解项目</a>
-                <a href="#contact" class="btn btn-outline">联系团队</a>
             </div>
         </div>
     </section>
 
-    <section id="about" class="section">
+    <section class="home-launchpad section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Start Here</span>
+                <h2>一个陌生访客的了解路径</h2>
+                <p class="section-desc">从问题出发，看到方案、资金和团队，再决定如何参与</p>
+            </div>
+            <div class="launch-grid">
+                <div class="launch-group launch-group-understand">
+                    <div class="launch-group-heading"><span>01 — 03</span><strong>先了解项目</strong></div>
+                    <div class="launch-group-cards">
+                        <a class="launch-card launch-card-featured" href="#about" data-view="about">
+                            <span class="launch-index">01</span>
+                            <span class="launch-label">The Need</span>
+                            <h3>为什么需要 Her Rise</h3>
+                            <p>先看乌干达女童面对的经期卫生、健康教育与学习障碍。</p>
+                            <span class="launch-arrow" aria-hidden="true">↗</span>
+                        </a>
+                        <a class="launch-card" href="#plan" data-view="plan">
+                            <span class="launch-index">02</span>
+                            <span class="launch-label">The Plan</span>
+                            <h3>我们准备怎么做</h3>
+                            <p>从 1-2 所学校试点，逐步走向健康角和清洁能源赋能。</p>
+                            <span class="launch-arrow" aria-hidden="true">↗</span>
+                        </a>
+                        <a class="launch-card launch-card-budget" href="#budget" data-view="budget">
+                            <span class="launch-index">03</span>
+                            <span class="launch-label">Open Budget</span>
+                            <h3>¥63,400 会怎么用</h3>
+                            <p>公开三阶段预算、覆盖人数和资金来源，让每一笔钱都看得见。</p>
+                            <span class="launch-arrow" aria-hidden="true">↗</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="launch-group launch-group-action">
+                    <div class="launch-group-heading"><span>04 — 06</span><strong>再决定如何参与</strong></div>
+                    <div class="launch-group-cards">
+                        <a class="launch-card" href="#sdg" data-view="sdg">
+                            <span class="launch-index">04</span>
+                            <span class="launch-label">The Impact</span>
+                            <h3>这件事如何产生影响</h3>
+                            <p>从健康、教育、性别平等，到卫生设施和清洁能源。</p>
+                            <span class="launch-arrow" aria-hidden="true">↗</span>
+                        </a>
+                        <a class="launch-card launch-card-leaderboard" href="#leaderboard" data-view="leaderboard">
+                            <span class="launch-index">05</span>
+                            <span class="launch-label">The Supporters</span>
+                            <h3>筹款支持榜</h3>
+                            <p>查看已完成捐款的公开排名，感谢每一份支持。</p>
+                            <span class="launch-arrow" aria-hidden="true">↗</span>
+                        </a>
+                        <a class="launch-card launch-card-team-join" href="#team" data-view="team">
+                            <span class="launch-index">06</span>
+                            <span class="launch-label">The People &amp; Join In</span>
+                            <h3>认识团队 · 联系我们</h3>
+                            <p>认识四位来自成都的高中生，并查看联系方式。</p>
+                            <span class="launch-arrow" aria-hidden="true">↗</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <main id="content-view" class="view view-content" aria-hidden="true">
+        <div class="content-toolbar">
+            <button class="back-home" type="button" data-view="home" aria-label="返回首页">
+                <span aria-hidden="true">←</span> 返回首页
+            </button>
+            <p class="content-status">Her Rise · Project Detail</p>
+        </div>
+
+    <div id="about" class="page-view page-view-about">
+    <section class="section">
         <div class="container">
             <div class="section-header">
                 <span class="section-label">About</span>
                 <h2>项目概述</h2>
                 <p class="section-desc">以SDG 3、4、5为核心，协同SDG 6、7，打造经期友好校园</p>
             </div>
+            <blockquote class="about-pitch">
+                <p>在乌干达城乡公立学校，女孩可能因为卫生用品、健康知识、校园设施和经期羞耻而被迫缺课。Her Rise 要做的，是让她们有尊严地度过经期，安心留在课堂里。</p>
+            </blockquote>
             <div class="about-grid">
                 <div class="about-card">
                     <div class="about-icon">
@@ -79,15 +154,12 @@
                     <p>打破经期羞耻，建立健康的校园对话，让每个女孩自信成长，享有平等的教育机会。</p>
                 </div>
             </div>
-            <div class="about-founder">
-                <blockquote>
-                    <p>在乌干达，许多女孩来月经时只能使用破布、树叶甚至泥土，每月平均缺课4-5天。Her Rise要做的，就是让她们有尊严地度过经期，安心坐在教室里。</p>
-                </blockquote>
-            </div>
         </div>
     </section>
+    </div>
 
-    <section id="sdg" class="section section-dark">
+    <div id="sdg" class="page-view page-view-sdg">
+    <section class="section section-dark">
         <div class="container">
             <div class="section-header">
                 <span class="section-label">SDGs</span>
@@ -138,12 +210,14 @@
             </div>
             <div class="sdg-target">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="1"/></svg>
-                <span>目标国家：<strong>乌干达</strong>（当地学校）</span>
+                <span>目标场景：<strong>乌干达城乡公立中小学</strong>（重点对接 Pece Secondary School）</span>
             </div>
         </div>
     </section>
+    </div>
 
-    <section id="plan" class="section">
+    <div id="plan" class="page-view page-view-plan">
+    <section class="section">
         <div class="container">
             <div class="section-header">
                 <span class="section-label">Plan</span>
@@ -203,8 +277,88 @@
             </div>
         </div>
     </section>
+    </div>
 
-    <section id="team" class="section section-light">
+    <div id="budget" class="page-view page-view-budget">
+    <section class="section budget-section">
+        <div class="container">
+            <div class="section-header budget-header">
+                <span class="section-label">Open Budget</span>
+                <h2>资金怎么用</h2>
+                <p class="section-desc">预算来自项目方案文档，按阶段公开展示。第三阶段将根据实际筹款情况决定是否启动。</p>
+            </div>
+            <div class="budget-overview">
+                <div class="budget-total-card">
+                    <span class="budget-kicker">三阶段预计总预算</span>
+                    <strong>¥63,400</strong>
+                    <p>用于经期卫生支持、校园健康角和后续教育赋能。</p>
+                </div>
+                <div class="budget-facts">
+                    <div><strong>12-15</strong><span>个月执行周期</span></div>
+                    <div><strong>550+</strong><span>直接受益人次</span></div>
+                    <div><strong>3000+</strong><span>间接受益师生及家庭</span></div>
+                </div>
+            </div>
+            <div class="budget-phase-grid">
+                <article class="budget-phase-card">
+                    <div class="budget-phase-top"><span>01</span><strong>一期：经期友好校园包</strong></div>
+                    <div class="budget-amount">¥21,300</div>
+                    <p>覆盖 150 名女孩，提供 6 个月卫生用品、绘本和教师培训。</p>
+                    <div class="budget-bar"><span style="width: 34%"></span></div>
+                </article>
+                <article class="budget-phase-card">
+                    <div class="budget-phase-top"><span>02</span><strong>二期：校园健康角</strong></div>
+                    <div class="budget-amount">¥26,100</div>
+                    <p>建设 2 处健康角，为约 300 名女生提供全年物资保障。</p>
+                    <div class="budget-bar"><span style="width: 41%"></span></div>
+                </article>
+                <article class="budget-phase-card budget-phase-optional">
+                    <div class="budget-phase-top"><span>03</span><strong>三期：清洁能源赋能</strong><em>Optional</em></div>
+                    <div class="budget-amount">¥16,000</div>
+                    <p>根据结余资金采购太阳能灯、清洁炉灶和配套燃料。</p>
+                    <div class="budget-bar"><span style="width: 25%"></span></div>
+                </article>
+            </div>
+            <div class="budget-sources">
+                <div>
+                    <span class="section-label">Funding Sources</span>
+                    <h3>资金从哪里来</h3>
+                </div>
+                <ul>
+                    <li>团队成员投入约 ¥2,000</li>
+                    <li>企业 CSR 物资或资金赞助预计 ¥45,000-50,000</li>
+                    <li>线上小额筹款目标 ¥5,000-6,000</li>
+                    <li>公益基金会或国际组织赠款</li>
+                    <li>各期执行结余滚动至下一期</li>
+                </ul>
+            </div>
+            <p class="budget-note"><strong>透明说明：</strong>第三阶段是 optional。我们会优先确保一期、二期资金充足，再根据实际筹款与赞助结余决定是否开展清洁能源赋能。</p>
+        </div>
+    </section>
+    </div>
+
+    <div id="leaderboard" class="page-view page-view-leaderboard">
+    <section class="section leaderboard-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">The Supporters</span>
+                <h2>筹款支持榜</h2>
+                <p class="section-desc">每一笔已完成的捐款，都会成为女孩留在课堂里的支持。由于无法确认是否来自同一人，榜单按单笔记录展示。</p>
+            </div>
+            <div class="leaderboard-summary">
+                <div><strong id="leaderboard-total">¥0</strong><span>累计已完成捐款</span></div>
+                <div><strong id="leaderboard-supporters">0</strong><span>笔已完成记录</span></div>
+            </div>
+            <div class="leaderboard-list" id="leaderboard-list">
+                <div class="leaderboard-empty">正在加载筹款榜...</div>
+            </div>
+            <p class="leaderboard-note">排行榜只统计已完成的捐款，每笔记录独立展示，不推断捐款人身份，也不合并可能来自同一人的记录。</p>
+        </div>
+    </section>
+    </div>
+
+    <div id="team" class="page-view page-view-team">
+    <section class="section section-light">
         <div class="container">
             <div class="section-header">
                 <span class="section-label">Team</span>
@@ -214,45 +368,79 @@
             <div class="team-grid">
                 <div class="team-card card-leader">
                     <div class="team-avatar">
-                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-7 8-7s8 3 8 7"/></svg>
-                    </div>
-                    <h3>谷乐依</h3>
-                    <p class="team-name-en">Chloe Gu</p>
-                    <p class="team-school">成都树德中学国际部 · 高一ib3</p>
-                    <span class="team-role">队长</span>
+                            <img src="assets/her-rise-logo.jpg" alt="Her Rise">
+                        </div>
+                    <h3 class="team-name-en">Chloe L Gu</h3>
+                    <p class="team-school">Chengdu Shude High School IBDP · Year 10</p>
+                    <span class="team-role">Team Lead</span>
                 </div>
                 <div class="team-card">
                     <div class="team-avatar">
-                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-7 8-7s8 3 8 7"/></svg>
-                    </div>
-                    <h3>马洁瑞</h3>
-                    <p class="team-name-en">Carrie Li Ma</p>
-                    <p class="team-school">成都外国语学校 · 高一ap3</p>
+                            <img src="assets/her-rise-logo.jpg" alt="Her Rise">
+                        </div>
+                    <h3 class="team-name-en">Carrie Li Ma</h3>
+                    <p class="team-school">Chengdu Foreign Languages School · Year 10</p>
                 </div>
                 <div class="team-card">
                     <div class="team-avatar">
-                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-7 8-7s8 3 8 7"/></svg>
-                    </div>
-                    <h3>程一可</h3>
-                    <p class="team-name-en">Yike</p>
-                    <p class="team-school">成都外国语学校 · 准高一</p>
+                            <img src="assets/her-rise-logo.jpg" alt="Her Rise">
+                        </div>
+                    <h3 class="team-name-en">Yike</h3>
+                    <p class="team-school">Chengdu Foreign Languages School · Year 10</p>
                 </div>
                 <div class="team-card">
                     <div class="team-avatar">
-                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-7 8-7s8 3 8 7"/></svg>
-                    </div>
-                    <h3>吕乐妍</h3>
-                    <p class="team-name-en">Leyan Lv</p>
-                    <p class="team-school">金苹果锦城第一中学 · 准高一</p>
+                            <img src="assets/her-rise-logo.jpg" alt="Her Rise">
+                        </div>
+                    <h3 class="team-name-en">Leyan Lyu</h3>
+                    <p class="team-school">Golden Apple Jincheng No.1 Middle School · Year 10</p>
                 </div>
             </div>
             <div class="team-contact">
                 <p><strong>指导老师：</strong>施竹溪 &nbsp;|&nbsp; <strong>家长联系人：</strong>谷佳 (15928870321)</p>
             </div>
+            <div class="contact-grid team-contact-grid">
+                <div class="contact-card">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                    <p>chloegu2028@163.com</p>
+                </div>
+                <div class="contact-card">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                    <p>18030414913 <span class="contact-sub">(电话 · 微信)</span></p>
+                </div>
+            </div>
+            <div class="social-section">
+                <h3 class="social-heading">关注我们的社交媒体</h3>
+                <div class="social-grid">
+                    <a class="social-card" href="https://www.instagram.com/HERISE2026" target="_blank" rel="noopener">
+                        <div class="social-icon social-icon-instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                        </div>
+                        <strong>Instagram</strong>
+                        <span>@HERISE2026</span>
+                    </a>
+                    <a class="social-card" href="https://xhslink.cn/m/5vBeG1tcynY" target="_blank" rel="noopener">
+                        <div class="social-icon social-icon-xiaohongshu">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+                        </div>
+                        <strong>小红书</strong>
+                        <span>ID: 27721164293</span>
+                    </a>
+                    <a class="social-card" href="https://weibo.com/u/8472749124" target="_blank" rel="noopener">
+                        <div class="social-icon social-icon-weibo">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M9.31 8.17C5.4 8.96 2.75 11.5 2.75 14.5c0 3.31 3.41 6 7.62 6 4.2 0 7.61-2.69 7.61-6 0-3.31-3.41-6-7.61-6-.17 0-.34.01-.51.02.16-.24.27-.51.27-.81 0-.28-.12-.53-.31-.71.79.31 1.59.5 2.43.5C16.1 6.5 19 3.6 19 0H9.31zm-.94 9.83c-2.2 0-3.99-1.16-3.99-2.6 0-1.43 1.79-2.59 3.99-2.59 2.21 0 3.99 1.16 3.99 2.59 0 1.44-1.78 2.6-3.99 2.6z"/><circle cx="19.5" cy="20" r="3.5"/></svg>
+                        </div>
+                        <strong>微博</strong>
+                        <span>@Her_Rise</span>
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
+    </div>
 
-    <section id="contact" class="section">
+    <div id="contact" class="page-view page-view-contact">
+    <section class="section">
         <div class="container">
             <div class="section-header">
                 <span class="section-label">Contact</span>
@@ -266,11 +454,33 @@
                 </div>
                 <div class="contact-card">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-                    <p>18030414913 (谷乐依)</p>
+                    <p>18030414913 <span class="contact-sub">(电话 · 微信)</span></p>
                 </div>
-                <div class="contact-card">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
-                    <p>chloelgu (微信)</p>
+            </div>
+            <div class="social-section">
+                <h3 class="social-heading">关注我们的社交媒体</h3>
+                <div class="social-grid">
+                    <a class="social-card" href="https://www.instagram.com/HERISE2026" target="_blank" rel="noopener">
+                        <div class="social-icon social-icon-instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                        </div>
+                        <strong>Instagram</strong>
+                        <span>@HERISE2026</span>
+                    </a>
+                    <a class="social-card" href="https://xhslink.cn/m/5vBeG1tcynY" target="_blank" rel="noopener">
+                        <div class="social-icon social-icon-xiaohongshu">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+                        </div>
+                        <strong>小红书</strong>
+                        <span>ID: 27721164293</span>
+                    </a>
+                    <a class="social-card" href="https://weibo.com/u/8472749124" target="_blank" rel="noopener">
+                        <div class="social-icon social-icon-weibo">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M9.31 8.17C5.4 8.96 2.75 11.5 2.75 14.5c0 3.31 3.41 6 7.62 6 4.2 0 7.61-2.69 7.61-6 0-3.31-3.41-6-7.61-6-.17 0-.34.01-.51.02.16-.24.27-.51.27-.81 0-.28-.12-.53-.31-.71.79.31 1.59.5 2.43.5C16.1 6.5 19 3.6 19 0H9.31zm-.94 9.83c-2.2 0-3.99-1.16-3.99-2.6 0-1.43 1.79-2.59 3.99-2.59 2.21 0 3.99 1.16 3.99 2.59 0 1.44-1.78 2.6-3.99 2.6z"/><circle cx="19.5" cy="20" r="3.5"/></svg>
+                        </div>
+                        <strong>微博</strong>
+                        <span>@Her_Rise</span>
+                    </a>
                 </div>
             </div>
             <div class="contact-note">
@@ -279,6 +489,9 @@
             </div>
         </div>
     </section>
+    </div>
+
+    </main>
 
     <footer class="footer">
         <div class="container">
@@ -286,6 +499,6 @@
         </div>
     </footer>
 
-    <script src="js/main.js"></script>
+    <script src="js/main.js?v=7"></script>
 </body>
 </html>

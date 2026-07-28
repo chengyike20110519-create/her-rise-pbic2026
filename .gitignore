@@ -14,3 +14,10 @@ node_modules/
 
 # Project specific
 site/index.html.bak
+.env
+backend/node_modules/
+backend/data/
+*.docx
+.DS_Store
+.agents/
+.codex/
