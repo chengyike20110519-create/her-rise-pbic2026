@@ -1,0 +1,5 @@
+services:
+  - type: static_site
+    name: her-rise
+    build_command: ''
+    publish_path: site
