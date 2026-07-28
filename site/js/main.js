@@ -12,7 +12,8 @@ document.addEventListener('DOMContentLoaded', () => {
         try {
             const response = await fetch(leaderboardUrl, { cache: 'no-cache' });
             if (!response.ok) throw new Error('leaderboard unavailable');
-            const donations = await response.json();
+            const data = await response.json();
+            const donations = data.records || data;
             const total = document.querySelector('#leaderboard-total');
             const supporters = document.querySelector('#leaderboard-supporters');
             const paid = donations.filter((item) => item.status === 'paid');
