@@ -1,1 +1,258 @@
-[]
+{
+  "records": [
+    {
+      "id": "donation-001",
+      "donorKey": "friend-001",
+      "donorName": "支持者 01",
+      "amount": 150,
+      "status": "paid",
+      "createdAt": "2026-07-28T11:28:51.031197Z",
+      "paidAt": "2026-07-28T11:28:51.031197Z"
+    },
+    {
+      "id": "donation-002",
+      "donorKey": "friend-002",
+      "donorName": "支持者 02",
+      "amount": 5.2,
+      "status": "paid",
+      "createdAt": "2026-07-28T11:28:51.031197Z",
+      "paidAt": "2026-07-28T11:28:51.031197Z"
+    },
+    {
+      "id": "donation-003",
+      "donorKey": "friend-003",
+      "donorName": "支持者 03",
+      "amount": 166,
+      "status": "paid",
+      "createdAt": "2026-07-28T11:28:51.031197Z",
+      "paidAt": "2026-07-28T11:28:51.031197Z"
+    },
+    {
+      "id": "donation-004",
+      "donorKey": "friend-004",
+      "donorName": "支持者 04",
+      "amount": 50,
+      "status": "paid",
+      "createdAt": "2026-07-28T11:28:51.031197Z",
+      "paidAt": "2026-07-28T11:28:51.031197Z"
+    },
+    {
+      "id": "donation-005",
+      "donorKey": "friend-005",
+      "donorName": "支持者 05",
+      "amount": 5,
+      "status": "paid",
+      "createdAt": "2026-07-28T11:28:51.031197Z",
+      "paidAt": "2026-07-28T11:28:51.031197Z"
+    },
+    {
+      "id": "donation-006",
+      "donorKey": "friend-006",
+      "donorName": "支持者 06",
+      "amount": 50,
+      "status": "paid",
+      "createdAt": "2026-07-28T11:28:51.031197Z",
+      "paidAt": "2026-07-28T11:28:51.031197Z"
+    },
+    {
+      "id": "donation-007",
+      "donorKey": "friend-007",
+      "donorName": "支持者 07",
+      "amount": 16,
+      "status": "paid",
+      "createdAt": "2026-07-28T11:28:51.031197Z",
+      "paidAt": "2026-07-28T11:28:51.031197Z"
+    },
+    {
+      "id": "donation-008",
+      "donorKey": "friend-008",
+      "donorName": "支持者 08",
+      "amount": 20,
+      "status": "paid",
+      "createdAt": "2026-07-28T11:28:51.031197Z",
+      "paidAt": "2026-07-28T11:28:51.031197Z"
+    },
+    {
+      "id": "donation-009",
+      "donorKey": "friend-009",
+      "donorName": "支持者 09",
+      "amount": 188,
+      "status": "paid",
+      "createdAt": "2026-07-28T11:28:51.031197Z",
+      "paidAt": "2026-07-28T11:28:51.031197Z"
+    },
+    {
+      "id": "donation-010",
+      "donorKey": "friend-010",
+      "donorName": "支持者 10",
+      "amount": 66.66,
+      "status": "paid",
+      "createdAt": "2026-07-28T11:28:51.031197Z",
+      "paidAt": "2026-07-28T11:28:51.031197Z"
+    },
+    {
+      "id": "donation-011",
+      "donorKey": "friend-011",
+      "donorName": "支持者 11",
+      "amount": 50,
+      "status": "paid",
+      "createdAt": "2026-07-28T11:28:51.031197Z",
+      "paidAt": "2026-07-28T11:28:51.031197Z"
+    },
+    {
+      "id": "donation-012",
+      "donorKey": "friend-012",
+      "donorName": "支持者 12",
+      "amount": 10,
+      "status": "paid",
+      "createdAt": "2026-07-28T11:28:51.031197Z",
+      "paidAt": "2026-07-28T11:28:51.031197Z"
+    },
+    {
+      "id": "donation-013",
+      "donorKey": "friend-013",
+      "donorName": "支持者 13",
+      "amount": 10,
+      "status": "paid",
+      "createdAt": "2026-07-28T11:28:51.031197Z",
+      "paidAt": "2026-07-28T11:28:51.031197Z"
+    },
+    {
+      "id": "donation-014",
+      "donorKey": "friend-014",
+      "donorName": "支持者 14",
+      "amount": 10,
+      "status": "paid",
+      "createdAt": "2026-07-28T11:28:51.031197Z",
+      "paidAt": "2026-07-28T11:28:51.031197Z"
+    },
+    {
+      "id": "donation-015",
+      "donorKey": "friend-015",
+      "donorName": "支持者 15",
+      "amount": 50,
+      "status": "paid",
+      "createdAt": "2026-07-28T11:28:51.031197Z",
+      "paidAt": "2026-07-28T11:28:51.031197Z"
+    },
+    {
+      "id": "donation-016",
+      "donorKey": "friend-016",
+      "donorName": "支持者 16",
+      "amount": 66,
+      "status": "paid",
+      "createdAt": "2026-07-28T11:28:51.031197Z",
+      "paidAt": "2026-07-28T11:28:51.031197Z"
+    },
+    {
+      "id": "donation-017",
+      "donorKey": "friend-017",
+      "donorName": "支持者 17",
+      "amount": 20,
+      "status": "paid",
+      "createdAt": "2026-07-28T11:28:51.031197Z",
+      "paidAt": "2026-07-28T11:28:51.031197Z"
+    },
+    {
+      "id": "donation-018",
+      "donorKey": "friend-018",
+      "donorName": "支持者 18",
+      "amount": 50,
+      "status": "paid",
+      "createdAt": "2026-07-28T11:28:51.031197Z",
+      "paidAt": "2026-07-28T11:28:51.031197Z"
+    },
+    {
+      "id": "donation-019",
+      "donorKey": "friend-019",
+      "donorName": "支持者 19",
+      "amount": 68,
+      "status": "paid",
+      "createdAt": "2026-07-28T11:28:51.031197Z",
+      "paidAt": "2026-07-28T11:28:51.031197Z"
+    },
+    {
+      "id": "donation-020",
+      "donorKey": "friend-020",
+      "donorName": "支持者 20",
+      "amount": 200,
+      "status": "paid",
+      "createdAt": "2026-07-28T11:28:51.031197Z",
+      "paidAt": "2026-07-28T11:28:51.031197Z"
+    },
+    {
+      "id": "donation-021",
+      "donorKey": "friend-021",
+      "donorName": "支持者 21",
+      "amount": 20,
+      "status": "paid",
+      "createdAt": "2026-07-28T11:28:51.031197Z",
+      "paidAt": "2026-07-28T11:28:51.031197Z"
+    },
+    {
+      "id": "donation-022",
+      "donorKey": "friend-022",
+      "donorName": "支持者 22",
+      "amount": 100,
+      "status": "paid",
+      "createdAt": "2026-07-28T11:28:51.031197Z",
+      "paidAt": "2026-07-28T11:28:51.031197Z"
+    },
+    {
+      "id": "donation-023",
+      "donorKey": "friend-023",
+      "donorName": "支持者 23",
+      "amount": 18,
+      "status": "paid",
+      "createdAt": "2026-07-28T11:28:51.031197Z",
+      "paidAt": "2026-07-28T11:28:51.031197Z"
+    },
+    {
+      "id": "donation-024",
+      "donorKey": "friend-024",
+      "donorName": "支持者 24",
+      "amount": 18,
+      "status": "paid",
+      "createdAt": "2026-07-28T11:28:51.031197Z",
+      "paidAt": "2026-07-28T11:28:51.031197Z"
+    },
+    {
+      "id": "donation-025",
+      "donorKey": "friend-025",
+      "donorName": "支持者 25",
+      "amount": 100,
+      "status": "paid",
+      "createdAt": "2026-07-28T11:28:51.031197Z",
+      "paidAt": "2026-07-28T11:28:51.031197Z"
+    },
+    {
+      "id": "donation-026",
+      "donorKey": "friend-026",
+      "donorName": "支持者 26",
+      "amount": 80,
+      "status": "paid",
+      "createdAt": "2026-07-28T11:28:51.031197Z",
+      "paidAt": "2026-07-28T11:28:51.031197Z"
+    },
+    {
+      "id": "donation-027",
+      "donorKey": "friend-027",
+      "donorName": "支持者 27",
+      "amount": 50,
+      "status": "paid",
+      "createdAt": "2026-07-28T11:28:51.031197Z",
+      "paidAt": "2026-07-28T11:28:51.031197Z"
+    },
+    {
+      "id": "donation-028",
+      "donorKey": "friend-028",
+      "donorName": "支持者 28",
+      "amount": 5.2,
+      "status": "paid",
+      "createdAt": "2026-07-28T11:28:51.031197Z",
+      "paidAt": "2026-07-28T11:28:51.031197Z"
+    }
+  ],
+  "totalAmount": 1642.06,
+  "updatedAt": "2026-07-28T11:28:51.031197Z"
+}
