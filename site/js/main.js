@@ -5,6 +5,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const money = (value) => `¥${Number(value || 0).toLocaleString('zh-CN')}`;
     const date = (value) => value ? new Intl.DateTimeFormat('zh-CN', { month: 'numeric', day: 'numeric' }).format(new Date(value)) : '';
+    const escapeHtml = (value) => String(value ?? '').replace(/[&<>"']/g, (ch) => ({
+        '&': '&amp;',
+        '<': '&lt;',
+        '>': '&gt;',
+        '"': '&quot;',
+        "'": '&#39;',
+    }[ch]));
 
     const loadLeaderboard = async () => {
         const list = document.querySelector('#leaderboard-list');
@@ -28,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
             list.innerHTML = sorted.map((entry, index) => `
                 <div class="leaderboard-row">
                     <span class="leaderboard-rank">${String(index + 1).padStart(2, '0')}</span>
-                    <div><strong class="leaderboard-donor">${`第 ${String(index + 1).padStart(2, '0')} 笔支持`}</strong><span class="leaderboard-count">记录日期 · ${date(entry.createdAt)}</span></div>
+                    <div><strong class="leaderboard-donor">${escapeHtml(entry.donorName)}</strong><span class="leaderboard-count">记录日期 · ${date(entry.createdAt)}</span></div>
                     <strong class="leaderboard-amount">${money(entry.amount)}</strong>
                 </div>
             `).join('');
